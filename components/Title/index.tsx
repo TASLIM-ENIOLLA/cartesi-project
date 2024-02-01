@@ -20,14 +20,17 @@ export default function Page({ title, subtitle }: PageProps) {
           z-index: 0;
         }
         .title:after {
-          top: 0%;
+          top: 50%;
           left: 50%;
           z-index: -1;
-          height: 100%;
+          height: 40%;
+          width: 90%;
+          max-width: 100px;
           display: block;
           color: #00ffe755;
           position: absolute;
-          content: "${title}";
+          background: teal;
+          content: "";
           transform: translate(-50%, 0) scale(1.05, 1.5);
         }
       `}</style>

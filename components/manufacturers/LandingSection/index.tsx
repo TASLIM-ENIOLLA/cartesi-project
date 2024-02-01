@@ -6,7 +6,7 @@ export default function Component() {
     <main className="py-20">
       <div className="container">
         <div className="grid grid-cols-12 gap-10">
-          <div className="col-span-7">
+          <div className="col-span-12 md:col-span-7">
             <div className="space-y-10">
               <div className="text-5xl leading-[1.4] capitalize font-bold text-white">
                 empowering consumers, ensuring authenticity
@@ -29,25 +29,25 @@ export default function Component() {
                 <div className="p-10 bg-red-100"></div>
               </div>
               <div className="flex flex-wrap gap-10">
-                <div className="space-y-2 text-center">
+                <div className="space-y-2">
                   <div className="text-3xl font-bold text-white">10k</div>
                   <div className="font-semibold text-slate-300 capitalize text-lg md:text-xl">
                     products
                   </div>
                 </div>
-                <div className="space-y-2 text-center">
+                <div className="space-y-2">
                   <div className="text-3xl font-bold text-white">15k</div>
                   <div className="font-semibold text-slate-300 capitalize text-lg md:text-xl">
                     users
                   </div>
                 </div>
-                <div className="space-y-2 text-center">
+                <div className="space-y-2">
                   <div className="text-3xl font-bold text-white">2k+</div>
                   <div className="font-semibold text-slate-300 capitalize text-lg md:text-xl">
                     manufacturers
                   </div>
                 </div>
-                <div className="space-y-2 text-center">
+                <div className="space-y-2">
                   <div className="text-3xl font-bold text-white">100+</div>
                   <div className="font-semibold text-slate-300 capitalize text-lg md:text-xl">
                     counterfeits found
@@ -56,7 +56,7 @@ export default function Component() {
               </div>
             </div>
           </div>
-          <div className="col-span-5">
+          <div className="hidden md:block col-span-5">
             <div className="relative h-[500px]">
               <Image
                 fill={true}
